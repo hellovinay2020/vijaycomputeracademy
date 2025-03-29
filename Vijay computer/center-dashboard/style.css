@@ -1,0 +1,408 @@
+* {
+    font-family: "Merienda", serif;
+}
+
+.blink {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-top: 7px;
+    background-color: green;
+    animation-name: example;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+
+    100% {
+        background-color: #00ff0a;
+        left: 0px;
+        top: 200px;
+    }
+
+    100% {
+        background-color: #00ff0a;
+        left: 0px;
+        top: 200px;
+    }
+
+}
+
+#act {
+
+    padding: 20px;
+    color: #00ff0a;
+}
+
+.user {
+    background-color: orangered;
+    height: 50px;
+    width: 100%;
+    padding: 14px;
+    border-radius: 100%;
+}
+
+.sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 175%;
+    width: 265px;
+    padding-top: 20px;
+    background-color: #100562;
+    transition: 0.3s;
+}
+.flex-column {
+    flex-direction: column !important;
+    margin-top: -20px;
+}
+
+.sidebar .nav-link {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+    color: white;
+}
+
+.sidebar .description {
+    font-size: 14px;
+}
+
+.description:hover{
+    color: #cab74d;
+}
+.sidebar .nav-link:hover {
+    background-color: #000000;
+    /* font-weight:bolder; */
+
+}
+
+.sidebar .sub-menu {
+    background-color: #0884f9;
+    padding-left: 5%;
+
+}
+
+.main-content {
+    height: 100%;
+    margin-left: 260px;
+    padding: 20px;
+}
+
+@media (max-width: 480px) {
+    .sidebar {
+        width: 60px;
+    }
+
+    .sidebar .description {
+        display: none;
+    }
+
+    .sidebar .nav-link {
+        justify-content: center;
+    }
+
+    .main-content {
+        margin-left: 60px;
+    }
+
+}
+
+#act-link {
+    color: white;
+    text-decoration: none;
+}
+
+.service-data1 {
+    background-color: #004c72;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-data1:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+.service-data2 {
+    background-color: green;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.service-data2:hover {
+    background-color: red;
+    cursor: pointer;
+
+
+}
+
+.service-data3 {
+    background-color: darkblue;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.service-data3:hover {
+    background-color: darkgoldenrod;
+    cursor: pointer;
+}
+
+.service-data4 {
+    background-color: blueviolet;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.service-data4:hover {
+    background-color: darkred;
+    cursor: pointer;
+}
+
+.service-data5 {
+    background-color: #8e006e;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.service-data5:hover {
+    background-color: #008a7d;
+    cursor: pointer;
+}
+
+.service-data6 {
+    background-color: #007ab4;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.service-data6:hover {
+    background-color: #3f4a3c;
+    cursor: pointer;
+}
+
+.service-data7 {
+    background-color: #012605;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.service-data7:hover {
+    background-color: #cab74d;
+    cursor: pointer;
+}
+
+.service-data8 {
+    background-color: #1e345b;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.service-data8:hover {
+    background-color: #757b47;
+    cursor: pointer;
+}
+
+.service-data9 {
+    background-color: #28085c;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.service-data9:hover {
+    background-color: #0884f9;
+    cursor: pointer;
+}
+
+.service-data10 {
+    background-color: #004882;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.service-data10:hover {
+    background-color: #550000;
+    cursor: pointer;
+}
+
+.service-data11 {
+    background-color: #810074;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.service-data11:hover {
+    background-color: #28085c;
+    cursor: pointer;
+}
+
+.service-data12 {
+    background-color: #cab74d;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.service-data12:hover {
+    background-color: #004c72;
+    cursor: pointer;
+}
+
+.service-data13 {
+    background-color: #a96e00;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.service-data13:hover {
+    background-color: #008758;
+    cursor: pointer;
+}
+
+.service-data14 {
+    background-color: #100562;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.service-data14:hover {
+    background-color: #8e006e;
+    cursor: pointer;
+}
+
+.service-data15 {
+    background-color: #504538;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.service-data15:hover {
+    background-color: #ff0000;
+    cursor: pointer;
+}
+
+.service-data16 {
+    background-color: #a96e00;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.service-data16:hover {
+    background-color: #dc3193;
+    cursor: pointer;
+}
+.admission{
+    background-color: lightpink;
+   height: 200%;
+   
+}
+.btn-submit {
+padding-bottom: 190px;
+}
+#back{
+    padding: 10px 11px;
+     background-color: rgb(180, 193, 3); 
+     border-radius: 5px; 
+     text-decoration: none; 
+     color: white;
+}
+#back:hover{
+    background-color: rgb(149, 159, 4); 
+    transition: 0.2s;
+}

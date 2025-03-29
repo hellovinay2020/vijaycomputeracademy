@@ -1,0 +1,20 @@
+.center-login {
+    background-color: #100562 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.center-btn{
+   display: flex;
+   gap: 1rem;
+   padding-top: 20px;
+}
+.center-btn button{
+    width: 30%;  
+}
+.center-btn button:hover{
+    background-color: #100562;
+    border-bottom: 3px solid red;
+    
+}

@@ -1,0 +1,52 @@
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1170px;
+    }
+}
+
+@media only screen and (min-width:200px) and (max-width:575px){
+    .authority{
+        flex-shrink: 0;
+        width: 100%;
+        max-width: 100%;
+        padding-right: calc(var(--bs-gutter-x)* .5);
+        padding-left: calc(var(--bs-gutter-x)* .5);
+        margin-top: var(--bs-gutter-y);
+    }
+   
+    .bannerContact h1{
+        font-size: 28px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 35px;
+    }
+    .bannerContact br{
+        display: none;
+    }
+    .bannerContact p, .bannerContact ul li{
+        font-size: 16px;
+    }
+    .bannerContactBtn{
+        flex-direction: column;
+    }
+    .bannerContactBtn button{
+        width: 100%;
+    }
+    .bannerForm{
+        padding: 20px;
+    }
+    .hightlights-section h2{
+        color: #0A2134;
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .adm-img{
+        display: none;
+    }
+    
+}
+@media only screen and (min-width:0px) and (max-width:2000px){
+    .respNavi{
+        display: block;
+    }
+}
